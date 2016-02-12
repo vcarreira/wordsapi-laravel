@@ -1,0 +1,30 @@
+{
+    "name": "vcarreira/wordsapi-laravel",
+    "description": "A simple WordsAPI service provider for Laravel 5",
+    "type": "library",
+    "keywords": ["dictionary", "thesaurus", "language", "laravel", "laravel 5"],
+    "homepage": "http://github.com/vcarreira/wordsapi-laravel",
+    "require": {
+        "php": ">= 5.5.9",
+        "illuminate/support": "~5.1",
+        "vcarreira/wordsapi": "~1.0",
+        "ext-curl": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitor Carreira",
+            "email": "vitor.carreira@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WordsApi\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
